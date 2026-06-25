@@ -29,9 +29,8 @@ export default function Home() {
             CompareB2B
           </div>
           <nav className="hidden md:flex gap-8 text-sm font-medium text-slate-300">
-            <a href="#" className="hover:text-white transition-colors">Tools</a>
-            <a href="#" className="hover:text-white transition-colors">Categories</a>
-            <a href="#" className="hover:text-white transition-colors">Pricing</a>
+            <a href="#comparisons" className="hover:text-white transition-colors">Tools</a>
+            <a href="#comparisons" className="hover:text-white transition-colors">Categories</a>
           </nav>
         </div>
       </header>
@@ -61,18 +60,22 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full max-w-md">
-            <button className="px-8 py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(79,70,229,0.5)] active:scale-95 w-full">
-              Explore comparisons
-            </button>
-            <button className="px-8 py-4 rounded-2xl bg-slate-800/80 hover:bg-slate-700 backdrop-blur-md border border-white/10 text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.05)] active:scale-95 w-full">
-              View categories
-            </button>
+            <a href="#comparisons" className="w-full">
+              <button className="px-8 py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(79,70,229,0.5)] active:scale-95 w-full">
+                Explore comparisons
+              </button>
+            </a>
+            <a href="#comparisons" className="w-full">
+              <button className="px-8 py-4 rounded-2xl bg-slate-800/80 hover:bg-slate-700 backdrop-blur-md border border-white/10 text-white font-medium transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.05)] active:scale-95 w-full">
+                View categories
+              </button>
+            </a>
           </div>
         </div>
       </main>
 
       {/* Comparisons Section */}
-      <section className="py-24 relative z-10 border-t border-white/5 bg-slate-950">
+      <section id="comparisons" className="py-24 relative z-10 border-t border-white/5 bg-slate-950">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-white mb-4">Epic Battles by Category</h2>
