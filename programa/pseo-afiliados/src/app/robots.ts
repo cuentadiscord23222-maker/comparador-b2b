@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://compareb2b.com';
 
 export default function robots(): MetadataRoute.Robots {
