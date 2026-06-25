@@ -10,6 +10,7 @@ type Tool = {
   pros: string[];
   cons: string[];
   pricing: string;
+  affiliateLink?: string;
 };
 
 type Props = {
@@ -203,7 +204,7 @@ export default async function ComparisonPage({ params }: Props) {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <a href="#" className="relative group/btn w-full sm:w-auto">
+              <a href={tool1.affiliateLink || "#"} target="_blank" rel="noopener noreferrer" className="relative group/btn w-full sm:w-auto">
                 <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl blur opacity-70 group-hover/btn:opacity-100 transition duration-300 group-hover/btn:duration-200 animate-tilt"></div>
                 <button className="relative w-full sm:w-auto px-8 py-5 rounded-2xl bg-black leading-none flex items-center justify-center gap-3 transition-all duration-300 group-hover/btn:scale-[1.02]">
                   <span className="text-white font-bold text-lg">Try {tool1.name} for Free</span>
@@ -215,7 +216,7 @@ export default async function ComparisonPage({ params }: Props) {
 
               <span className="text-slate-500 font-medium italic text-sm">or also</span>
 
-              <a href="#" className="relative group/btn2 w-full sm:w-auto">
+              <a href={tool2.affiliateLink || "#"} target="_blank" rel="noopener noreferrer" className="relative group/btn2 w-full sm:w-auto">
                 <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl blur opacity-50 group-hover/btn2:opacity-100 transition duration-300 group-hover/btn2:duration-200 animate-tilt"></div>
                 <button className="relative w-full sm:w-auto px-8 py-5 rounded-2xl bg-slate-900 border border-white/10 leading-none flex items-center justify-center gap-3 transition-all duration-300 group-hover/btn2:scale-[1.02] group-hover/btn2:bg-black">
                   <span className="text-slate-200 font-semibold text-lg">Try {tool2.name}</span>
