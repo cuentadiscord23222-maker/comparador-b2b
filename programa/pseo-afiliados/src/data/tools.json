@@ -1,0 +1,206 @@
+[
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "category": "AI Tools",
+    "description": "ChatGPT is an AI-powered language model developed by OpenAI, capable of generating human-like text based on context and past conversations.",
+    "pros": [
+      "Highly versatile",
+      "Natural language understanding",
+      "Continuous improvements"
+    ],
+    "cons": [
+      "Can occasionally hallucinate facts",
+      "Data privacy concerns for enterprise",
+      "Context window limitations"
+    ],
+    "pricing": "Free tier available. Plus is $20/user/month."
+  },
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "category": "AI Tools",
+    "description": "Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species through AI image generation.",
+    "pros": [
+      "Stunning image quality",
+      "Highly artistic outputs",
+      "Active community"
+    ],
+    "cons": [
+      "Requires Discord interface",
+      "Steep learning curve for prompts",
+      "No free tier anymore"
+    ],
+    "pricing": "Basic plan starts at $10/month."
+  },
+  {
+    "slug": "jasper",
+    "name": "Jasper",
+    "category": "AI Tools",
+    "description": "Jasper is an AI copilot for enterprise marketing teams who want better outcomes, not just faster outputs.",
+    "pros": [
+      "Tailored for marketing workflows",
+      "Brand voice capabilities",
+      "Built-in templates"
+    ],
+    "cons": [
+      "Expensive for small teams",
+      "Output still needs human editing",
+      "Steeper learning curve"
+    ],
+    "pricing": "Creator tier starts at $39/month/seat."
+  },
+  {
+    "slug": "webflow",
+    "name": "Webflow",
+    "category": "Website Builders",
+    "description": "Webflow is a visual web development platform that allows people to design, build, and launch completely custom websites without writing code.",
+    "pros": [
+      "Pixel-perfect design control",
+      "Clean code export",
+      "Powerful CMS"
+    ],
+    "cons": [
+      "Steep learning curve",
+      "Complex pricing structure",
+      "E-commerce is lacking compared to Shopify"
+    ],
+    "pricing": "Free starter plan. Basic site plan starts at $14/month."
+  },
+  {
+    "slug": "framer",
+    "name": "Framer",
+    "category": "Website Builders",
+    "description": "Framer is the web builder for creative pros. Design and publish stunning sites with unparalleled speed and control.",
+    "pros": [
+      "Extremely fast workflow",
+      "Great animations and effects",
+      "Familiar UI for designers"
+    ],
+    "cons": [
+      "Limited CMS capabilities compared to Webflow",
+      "Less suitable for complex web apps",
+      "Relatively new ecosystem"
+    ],
+    "pricing": "Free plan available. Mini plan starts at $5/month."
+  },
+  {
+    "slug": "wordpress",
+    "name": "WordPress",
+    "category": "Website Builders",
+    "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+    "pros": [
+      "Massive ecosystem of plugins",
+      "Total control over hosting",
+      "Excellent SEO capabilities"
+    ],
+    "cons": [
+      "Requires maintenance and security updates",
+      "Can become bloated and slow",
+      "Steeper learning curve for custom development"
+    ],
+    "pricing": "Free open-source software. Hosting costs vary."
+  },
+  {
+    "slug": "mailchimp",
+    "name": "Mailchimp",
+    "category": "Email Marketing",
+    "description": "Mailchimp is an all-in-one marketing platform that helps you manage and talk to your clients, customers, and other interested parties.",
+    "pros": [
+      "Easy to use interface",
+      "Great reporting and analytics",
+      "Lots of integrations"
+    ],
+    "cons": [
+      "Expensive as your list grows",
+      "Strict affiliate marketing rules",
+      "Customer support can be slow on lower tiers"
+    ],
+    "pricing": "Free for up to 500 contacts. Essentials starts at $13/month."
+  },
+  {
+    "slug": "convertkit",
+    "name": "ConvertKit",
+    "category": "Email Marketing",
+    "description": "ConvertKit is the go-to marketing hub for creators that helps you grow and monetize your audience with ease.",
+    "pros": [
+      "Excellent visual automation builder",
+      "High deliverability rates",
+      "Great for creators and bloggers"
+    ],
+    "cons": [
+      "Limited design options for emails",
+      "Pricing gets steep quickly",
+      "A/B testing is somewhat basic"
+    ],
+    "pricing": "Free for up to 1,000 subscribers. Creator plan starts at $9/month."
+  },
+  {
+    "slug": "activecampaign",
+    "name": "ActiveCampaign",
+    "category": "Email Marketing",
+    "description": "ActiveCampaign gives you the email marketing, marketing automation, and CRM tools you need to create incredible customer experiences.",
+    "pros": [
+      "Incredibly powerful automation",
+      "Built-in CRM",
+      "High deliverability"
+    ],
+    "cons": [
+      "Complex interface for beginners",
+      "Can be overwhelming",
+      "More expensive than basic alternatives"
+    ],
+    "pricing": "Lite plan starts at $29/month."
+  },
+  {
+    "slug": "asana",
+    "name": "Asana",
+    "category": "Project Management",
+    "description": "Asana helps teams orchestrate their work, from small projects to strategic initiatives.",
+    "pros": [
+      "Very flexible and customizable",
+      "Great integration ecosystem",
+      "Intuitive user interface"
+    ],
+    "cons": [
+      "Can be overly complex for simple projects",
+      "Pricing per user gets expensive",
+      "Learning curve for advanced features"
+    ],
+    "pricing": "Basic is free. Premium starts at $10.99/user/month."
+  },
+  {
+    "slug": "linear",
+    "name": "Linear",
+    "category": "Project Management",
+    "description": "Linear is a purpose-built tool for planning and building products. Streamline issues, projects, and product roadmaps.",
+    "pros": [
+      "Blazing fast performance",
+      "Keyboard-centric workflow",
+      "Beautiful, minimalist design"
+    ],
+    "cons": [
+      "Highly opinionated workflow",
+      "Not suited for non-software teams",
+      "Lacks some enterprise features"
+    ],
+    "pricing": "Free for small teams. Standard starts at $8/user/month."
+  },
+  {
+    "slug": "clickup",
+    "name": "ClickUp",
+    "category": "Project Management",
+    "description": "ClickUp is one app to replace them all. It's the future of work. More than just task management - ClickUp offers docs, reminders, goals, calendars, and even an inbox.",
+    "pros": [
+      "Highly customizable",
+      "Feature-rich (docs, whiteboards, etc.)",
+      "Generous free plan"
+    ],
+    "cons": [
+      "UI can be overwhelming",
+      "Occasional performance issues",
+      "Steep learning curve due to feature density"
+    ],
+    "pricing": "Free forever plan. Unlimited starts at $7/user/month."
+  }
+]
